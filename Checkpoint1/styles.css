@@ -15,7 +15,7 @@ html {
 .start {
     display: flex;
     justify-content: space-between;
-    background-color: #f2f5f6a8;
+    background-color: #fbfeffa8;
     height: 50px;
     position: sticky;
     top: 0;
@@ -24,7 +24,6 @@ html {
 .image1 {
     width: 40px;
     height: 40px;
-    
     
 }
 
@@ -36,7 +35,7 @@ html {
 }
 
 .mundo {
-    color: #88878f;
+    color: #09080c;
     font-size: 20px;
 
 }
@@ -47,7 +46,7 @@ html {
     padding-bottom: 30px;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
-    color: #7d93a8;
+    color: #dbe4ed;
 }
 .fundo {
     background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220507/pngtree-dotted-world-map-of-square-dots-on-dark-background-image_1150067.jpg');
@@ -65,7 +64,6 @@ html {
 .image-form {
     width: 400px;
     height: 700px;
-    background-color: #03185b70;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,7 +88,45 @@ html {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #7387e0;
+    color: #94a2df;
     text-align: center;
+}
+.main-footer {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffffc8;
+    padding-bottom: 20px;
+}
+
+.logo1 {
+    width: 80px;
+    height: 80px;
+    margin: 40px;
+}
+
+.main-footer1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    gap: 60px;
+}
+
+.image-footer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 60px;
+}
+
+.main-footer .image-footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.main-footer .image-footer img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
